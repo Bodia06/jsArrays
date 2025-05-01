@@ -1,0 +1,49 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	padding: 1.875em;
+}
+
+.card-phone {
+	background-color: bisque;
+	border: 1px solid #000;
+	padding: 1.25em;
+	max-width: 31.25em;
+	min-width: 12.5em;
+	width: 100%;
+	border-radius: 0.625em;
+}
+
+.brand-phone {
+	color: #2a2a2a;
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.id-phone {
+	color: #555;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.model-phone {
+	color: #003366;
+	font-size: 1.2em;
+}
+
+.color-phone {
+	color: #990000;
+	font-size: 1em;
+}
+
+.ram-phone {
+	color: #006600;
+	font-size: 1em;
+}
+
+.price-phone {
+	color: #000;
+	font-size: 1em;
+	font-weight: bold;
+}
