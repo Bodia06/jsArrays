@@ -140,7 +140,7 @@ console.log(ramCounts)
 //*Методи перебору масивів (forEach, filter, map, findIndex, *some, *every)
 //?Отримати новий масив із заданого, який міститиме лише ненульові числа (-1, 5, 0, 9, -10 => -1, 5, 9, -10) filter
 const arr = [-1, 5, 0, 9, -10]
-const newArr = arr.filter((item) => item != 0)
+const newArr = arr.filter((item) => item !== 0)
 console.log(newArr)
 
 //?Отримати новий масив їх заданого, який міститиме всі елементи вихідного, поділені на 100 (99, 5, 0, 9, 30 => 0.99, 0.05, 0, 0.09, 0.3) map
